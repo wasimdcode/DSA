@@ -1,9 +1,9 @@
 //O of n's power 2 is Imagine you have n kids in a classroom.
 // Each kid wants to give a high-five ✋ to every other kid.
-function countHighFives(n){
+function countHighFives(n) {
     let highFives = 0;
-    for(let i = 0; i < n; i++){ //First Kid
-        for(let j = i + 1; j < n; j++){ // Other kids they haven't high fived
+    for (let i = 0; i < n; i++) { //First Kid
+        for (let j = i + 1; j < n; j++) { // Other kids they haven't high fived
             highFives++;
         }
     }

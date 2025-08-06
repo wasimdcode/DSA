@@ -3,12 +3,12 @@
 // but instead of this we have around 500 or larger data so it will take more time to process
 // so time of running code depends on the size of data
 
-const allstudent = ["wasim","rihan","luffy","zoro","sanji"];
+const allstudent = ["wasim", "rihan", "luffy", "zoro", "sanji"];
 const findstudent = (allstudent, studentname) => {
-    for(let i = 0; i < allstudent.length; i++){
-        if(allstudent[i] === studentname){
+    for (let i = 0; i < allstudent.length; i++) {
+        if (allstudent[i] === studentname) {
             console.log(`Student ${studentname} found at index of ${i}`)
         }
     }
 }
-findstudent(allstudent,"wasim")
+findstudent(allstudent, "wasim")

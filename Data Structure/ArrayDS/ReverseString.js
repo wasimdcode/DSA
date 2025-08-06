@@ -8,7 +8,7 @@ const reverseString = (string) => {
     const array = string.split('');
     const revArray = [];
     let j = 0;
-    for(let i = array.length; i > -1; i--){
+    for (let i = array.length; i > -1; i--) {
         // Reversing that array and storing it in new array
         revArray[j] = array[i];
         j++;

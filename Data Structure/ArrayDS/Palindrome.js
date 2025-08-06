@@ -3,7 +3,7 @@
 // then we will compare both of them 
 const palindromeFind = str => {
     const revstr = str.split('').reverse().join('');
-    if(revstr === str){
+    if (revstr === str) {
         return `Yes ! it's Palindrome -> ${str} Reversed -> ${revstr}`
     }
     return `No it's not an Palindrome -> ${str} Reversed -> ${revstr}`
